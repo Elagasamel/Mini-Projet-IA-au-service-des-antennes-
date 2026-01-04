@@ -1,10 +1,39 @@
-# Mini-Projet-IA-au-service-des-antennes-
-Dans le cadre de ses missions, l’Agence nationale des fréquences (ANFR en France et ANF en Tunisie ) veille au respect de ces valeurs limites. Pour cela, elle élabore un protocole de mesure de l’exposition aux ondes et l’actualise en fonction des évolutions technologiques.
+# Simple and Configured Kubernetes Deployments
 
-Ce protocole couvre l’ensemble des émissions radioélectriques de 9 kHz à 300 GHz. En 2018, deux versions de protocoles ont successivement été en vigueur : La première étape du processus de mesure au-delà de 100 kHz consiste à choisir entre une mesure de l’exposition globale large bande (cas A) ou détaillée en fréquences (cas B).
+## ☸️ Project Overview
 
-Le cas A fournit toutes les sources et fréquences et repose sur l’utilisation d’une sonde large bande. Le cas B, toujours précédé d’un cas A, précise les valeurs de champs par sources, fréquences ou sous-bandes de fréquences. Il repose sur l’utilisation d’un analyseur de spectre portatif.
+The term **“cluster”** refers to a functional Kubernetes deployment.  
+A Kubernetes cluster consists of two main components: the **control plane** and the **worker nodes** (compute machines).
 
-Lorsque le niveau d’exposition évalué selon le cas A du protocole dépasse le niveau d’attention de 6 V/m, une évaluation selon le cas B du protocole devient obligatoire.
+Each node runs its own **Linux® environment** and can be either a **physical or virtual machine**.  
+Nodes are responsible for running **pods**, which are the smallest deployable units in Kubernetes and are composed of one or more containers.
 
-Probléme : Comment pouvoir conclure avec certitude la performance de notre antenne à partir de processus de mesure que nous avons fait ?
+---
+
+## 🎯 Objectives
+
+- Understand the basic concepts and architecture of **Kubernetes** and **Minikube**
+- Interact efficiently with **pods**, including debugging and troubleshooting
+- Create Kubernetes deployments:
+  - With YAML configuration files
+  - Without YAML files (using command-line instructions)
+
+---
+
+## 🛠️ Tools Used
+
+- **Kubernetes (Minikube)**
+- **Nginx**
+- **MongoDB**
+
+---
+
+## 🚀 Key Learning Outcomes
+
+- Kubernetes cluster and node architecture
+- Pod lifecycle management
+- Deployment creation and scaling
+- Debugging running containers
+- Service exposure and configuration basics
+
+---
